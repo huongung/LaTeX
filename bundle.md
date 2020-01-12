@@ -24,15 +24,7 @@ Parameterization: the process of defining necessary parameters of a given model
 The gradient descent methods is an iterative optimization that operates on loss landscape. The GD is popular is because although this optimization algorithms may not be guaranteed to arrive at global minimum, but is often finds a very low value of the loss fn
 
 Bias trick
-\begin{equation}
-\[\begin{bmatrix}
-1&0&0\\
-0&1&0\\
-0&0&1\\
-\end{bmatrix}\]
-\end{equation}
-
-$\sum_{\forall i}{x_i^{2}} $
+![equation](http://www.sciweavers.org/upload/Tex2Img_1578796376/render.png)
 
 w_1  w_2  w_3     x      x_1       +      b_1                     w_1   w_2   w_3   b_1     x     x_1
 w_4  w_5  w_6            x_2              b_2            -->      w_4   w_5   w_6   b_2           x_2
